@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Header.css'
 const Header = () => {
-    const [refresh,userefesh]=useState(false)
+    const [refresh,userefesh]=useState<boolean>(false)
     const ShowNav=()=>{
         userefesh(!refresh)
     }

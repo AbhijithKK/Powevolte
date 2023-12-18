@@ -1,4 +1,4 @@
-import Header from "./header/Header"
+import Home from "./Home/Home"
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <Header/>
+    <Home/>
     </>
   )
 }
