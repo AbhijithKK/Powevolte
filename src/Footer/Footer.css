@@ -27,4 +27,10 @@ margin-top: 35px;
 
 .contacts div{
 cursor: pointer;
+
+}
+.contacts div img{
+cursor: pointer;
+height: 25px;
+
 }
