@@ -24,3 +24,30 @@ text-align: center;
 text-align: center;
 margin-top: 15px;
 }
+
+.comp-logos{
+    display: grid;
+    margin-top: 20px;
+
+}
+
+.comp-logos h2{
+margin-top: 10px;
+margin-bottom: 10px;
+    text-align: center;
+}
+
+.comp-imgs{
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+    overflow-x: scroll
+}
+.comp-imgs::-webkit-scrollbar{
+    display: none;
+}
+
+.comp-imgs img{
+    margin-left: 10px;
+}

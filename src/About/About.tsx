@@ -42,6 +42,16 @@ Power Volte is committed to providing customers with the latest technology at an
             <p>As a leading online store of UPS, Car and Inverter battery, we are expanding our operation to even small cities. With our outstanding expertise and the flexible work culture drives us to be a centre of demand among in the customer’s community.</p>
         </div>
       </div>
+      <div className="comp-logos">
+        <h2>We Provaided Companies</h2>
+        <div className="comp-imgs">
+            <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli2.jpg" alt="" />
+            <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-6.jpg" alt="" />
+            <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-5.jpg" alt="" />
+            <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-3.jpg" alt="" />
+            <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-1.jpg" alt="" />
+        </div>
+      </div>
       <div style={{marginTop:"50px"}}>
 
       <Footer/>

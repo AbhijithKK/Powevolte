@@ -33,6 +33,9 @@
 #abc:hover{
   color: blue !important; 
 }
+#abc{
+  behavior: smooth;
+}
 @media (max-width: 700px) {
   .list-items ul {
     display: none;
