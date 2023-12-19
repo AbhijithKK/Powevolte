@@ -30,6 +30,9 @@
 .toggle-btn {
   display: none;
 }
+#abc:hover{
+  color: blue !important; 
+}
 @media (max-width: 700px) {
   .list-items ul {
     display: none;

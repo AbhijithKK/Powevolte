@@ -5,7 +5,7 @@ import fone from '../assets/phone-solid.svg'
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      <div id='contact' className="footer">
         <h3>Contact us</h3>
         <div className="contacts">
             <div><img src={fone} alt="" /> 9846816552</div>
