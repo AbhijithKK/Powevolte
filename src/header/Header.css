@@ -16,9 +16,12 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  position: relative;
+  z-index: 21;
 }
 .list-items ul li {
   margin-left: 10px;
+  text-decoration: none;
 }
 .list-items ul li:hover {
   color: blue;
@@ -32,6 +35,9 @@
     display: none;
     transform: scale(0);
     transition: transform 0.5s ease;
+    position: relative;
+    z-index: 10;
+
   }
 
   .list-items1 ul {
@@ -42,7 +48,9 @@
     line-height: 30px;
     margin-left: -236px;
     border-radius: 8px;
-   
+    position: relative;
+    z-index: 10;
+   background-color: rgb(146, 147, 148);
   }
   .list-items1 ul li:nth-child(even){
 color: rgb(43, 43, 44);
@@ -94,3 +102,4 @@ color: rgb(43, 43, 44);
    
   }
 }
+
