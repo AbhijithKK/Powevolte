@@ -1,0 +1,30 @@
+.footer{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    height: 130px;
+    color: white;
+    padding-top: 20px;
+    
+    background-color: rgb(70, 54, 33);
+}
+.copyright{
+   
+margin-top: 35px;
+    color: white;
+    text-align: center;
+}
+
+.contacts{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* grid-template-columns: repeat('auto-fit',minmax(250px,1fr)); */
+    color: white;
+    margin-top: 15px;
+    
+}
+
+.contacts div{
+cursor: pointer;
+}

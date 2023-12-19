@@ -1,6 +1,7 @@
 import Header from "../header/Header";
 import Carosal from "../Carosal/Carosal";
 import "./Home.css";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -111,6 +112,7 @@ const Home = () => {
         <div className="blink1">
         എല്ലാ കമ്പനികളുടെ ബാറ്ററിയും ഇൻവേറ്ററുകളും സർവീസ് ചെയ്ത് കൊടുക്കുന്നു.           </div>
     </div>
+    <Footer/>
     </>
   );
 };
