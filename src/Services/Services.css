@@ -1,0 +1,30 @@
+.service{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(125px,1fr));
+    grid-column-gap: 20px;
+   margin-left: 150px;
+   margin-right: 150px;
+   align-items: center;
+   overflow: hidden;
+   grid-row-gap: 50px;
+   padding-top: 80px;
+}
+
+.s-left{
+align-items: center;
+}
+.s-left div{
+text-align: center;
+font-size: 25px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.s-right{
+
+align-items: center;
+
+}
+.s-right img{
+height: 200px;
+}
