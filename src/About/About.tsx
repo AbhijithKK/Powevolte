@@ -1,7 +1,21 @@
+import { useRef } from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../header/Header'
 import './About.css'
 const About = () => {
+    const ref=useRef<any>(null)
+    const LeftBtn=()=>{
+      if(ref.current){
+        ref.current.scrollBy({left:-100,behavior:"smooth"})
+      }
+    }
+    const RightBtn=()=>{
+        if(ref.current){
+            ref.current.scrollBy({
+                left:100,behavior:"smooth"
+            })
+        }
+    }
   return (
     <div style={{
         height:"100vh"
@@ -44,14 +58,27 @@ Power Volte is committed to providing customers with the latest technology at an
       </div>
       <div className="comp-logos">
         <h2>We Provaided Companies</h2>
-        <div className="comp-imgs">
+        <div className='logo-scroll'>
+
+        <div className='img-btns'> 
+            
+            <button  onClick={LeftBtn} type='button'>&lt;</button>
+            </div>
+        <div className="comp-imgs" ref={ref}>
             <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli2.jpg" alt="" />
             <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-6.jpg" alt="" />
             <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-5.jpg" alt="" />
             <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-3.jpg" alt="" />
             <img src="http://inverterhouse.com/wp-content/uploads/2018/11/cli-1.jpg" alt="" />
+           
+           
         </div>
+        <div className='img-btns'> 
+            
+            <button className='b1' onClick={RightBtn} type='button'>&gt;</button>
+            </div>
       </div>
+        </div>
       <div style={{marginTop:"50px"}}>
 
       <Footer/>

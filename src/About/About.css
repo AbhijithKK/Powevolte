@@ -28,6 +28,7 @@ margin-top: 15px;
 .comp-logos{
     display: grid;
     margin-top: 20px;
+    
 
 }
 
@@ -42,12 +43,53 @@ margin-bottom: 10px;
     align-items: center;
    
     justify-content: space-around;
-    overflow-x: scroll
+    overflow-x: scroll;
+    
+   
+
 }
 .comp-imgs::-webkit-scrollbar{
     display: none;
 }
 
 .comp-imgs img{
+
     margin-left: 10px;
+}
+
+.img-btns button {
+   height: 40px;
+   width: 30px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-style: oblique;
+   background-color: rgba(248, 246, 246, 0.658);
+   border-radius: 2px;
+   outline: none;
+   border: 0px;
+   cursor: pointer;
+   left:0;
+}
+.img-btns button:hover{
+    background-color: rgb(155, 151, 151);
+}
+
+.img-btns{
+    display:none;
+}
+@media (max-width:1087px) {
+    .comp-imgs{
+        justify-content: space-between;
+    }
+
+    .logo-scroll{
+        
+            display:flex;
+            align-items:center;
+            overflow:hidden;
+       
+    }
+    .img-btns{
+        display:block;
+    }
 }
