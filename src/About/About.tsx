@@ -79,7 +79,7 @@ Power Volte is committed to providing customers with the latest technology at an
             </div>
       </div>
         </div>
-      <div style={{marginTop:"50px"}}>
+      <div style={{marginTop:"90px"}}>
 
       <Footer/>
       </div>

@@ -1,6 +1,8 @@
 .about {
 margin-left: 50px;
 margin-right: 50px;
+line-height: 30px;
+        margin-top: 80px;
 }
 .about h2{
 margin-top: 10px;
@@ -14,6 +16,8 @@ margin-bottom: 10px;
     margin-left: 50px;
 margin-right: 50px;
 margin-top: 20px;
+line-height: 30px;
+        margin-top: 80px;
 }
 
 .mission div{
@@ -91,5 +95,18 @@ margin-bottom: 10px;
     }
     .img-btns{
         display:block;
+    }
+}
+@media (min-width:900px) {
+    .about{
+        margin-left: 330px;
+        margin-right: 330px;
+        line-height: 30px;
+        margin-top: 80px;
+    }
+    .missions{
+        margin-left: 330px;
+        margin-right: 330px;
+        line-height: 30px;
     }
 }
