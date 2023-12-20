@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     text-align: center;
-    height: 130px;
+    height: 250px;
     color: white;
     padding-top: 20px;
     
@@ -14,7 +14,11 @@ margin-top: 25px;
     color: white;
     text-align: center;
 }
-
+.copyright1{
+margin-top: 25px;
+font-family: sans-serif;
+line-height: 30px;
+}
 .contacts{
     display:flex;
     align-items: center;

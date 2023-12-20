@@ -28,7 +28,7 @@ const About = () => {
       </div>
       <div className="about">
         <h2>Who We Are?</h2>
-        <p>Power Volte, committed to delivering comprehensive solutions for power backup challenges and elevating power quality through cutting-edge technologies and renewable energy sources in Calicut & Kerala.
+        <p>Power Volte, committed to delivering comprehensive solutions for power backup challenges and elevating power quality through cutting-edge technologies and renewable energy sources in Vatakara and Orkatteri.
 
 As the service and manufacturing sectors continue to grow, creating strain on existing power resources, Power Volte stands at the forefront, addressing the escalating demand for reliable power solutions.
 

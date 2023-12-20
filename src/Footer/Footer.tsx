@@ -12,6 +12,11 @@ const Footer = () => {
             <div><img src={wts} alt="" /> 7306871041</div>
             <div><img src={insta} alt="" />powervolt</div>
         </div>
+        <div className="copyright1">
+           <h2>POWER VOLTE</h2>
+           <h4>BATTERY & INVERTER</h4>
+           <p>NEAR,JUMA MASJID,VAIKKILASSERY ROAD ORKKATTERI</p>
+        </div>
         <div className="copyright">
             &copy;Power Volte2023
         </div>
